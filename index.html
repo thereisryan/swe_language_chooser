@@ -21,6 +21,7 @@
       </div>
       <h2>Take our easy quiz to suggest a language for you to learn!</h2>
       <p>But first head over to <a href="https://blog.teamtreehouse.com/choose-programming-language">teamtreehouse.com</a> to read a bit more about the choices available to someone new to programming</p>
+      <p>For the purposes of this quiz, and starting you off on the right foot, we'll suggest either javascript, ruby, or python.</p>
       <h3>The quiz can be found below</h3>
       <div class="form" id="questionnaire">
         <form>
@@ -39,7 +40,7 @@
           <div class="form-group">
             <label for="style">Learning style:</label>
             <select class="form-control" id="style">
-              <option value="Hands-on (Kinesthetic)">Hands-on (Kinesthetic)</option>
+              <option value="Kinesthetic">Hands-on (Kinesthetic)</option>
               <option value="Visual">Visual</option>
               <option value="Auditory">Auditory</option>
             </select>
@@ -64,6 +65,14 @@
                 I don't know what this means, or don't have a preference
               </label>
             </div>
+          </div>
+          <div class="form-group">
+            <label for="purpose">What is your desire for learning a programming language?</label>
+            <select class="form-control" id="purpose">
+              <option value="job">To get a job</option>
+              <option value="learn">Increase my breadth of knowledge</option>
+              <option value="build">Build cool stuff</option>
+            </select>
           </div>
           <button class="btn btn-primary" type="submit">Submit my answers!</button>
         </form>
