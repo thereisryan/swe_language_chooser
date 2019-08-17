@@ -29,3 +29,8 @@ body {
   font-weight: 300;
   margin-bottom: 10vh;
 }
+
+.reveal {
+  display: none;
+  text-align: center;
+}
