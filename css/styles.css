@@ -23,3 +23,9 @@ body {
   border-radius: 20px;
   opacity: .80;
 }
+
+.quiz {
+  opacity: 1;
+  font-weight: 300;
+  margin-bottom: 10vh;
+}
